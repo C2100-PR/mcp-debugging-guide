@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "google-search": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-google-search"],
+      "env": {
+        "GOOGLE_API_KEY": "your_google_api_key",
+        "GOOGLE_CSE_ID": "your_custom_search_engine_id",
+        "MCP_REGION": "us-west1",
+        "MCP_LOG_LEVEL": "debug"
+      }
+    }
+  }
+}
