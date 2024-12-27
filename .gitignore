@@ -1,0 +1,26 @@
+# Secrets and credentials
+.env
+*.pem
+*.key
+**/service-account.json
+**/credentials.json
+
+# Configuration files with sensitive data
+config.*.json
+!config.example.json
+
+# Logs
+logs/
+*.log
+
+# Dependencies
+node_modules/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Operating System
+.DS_Store
+Thumbs.db
