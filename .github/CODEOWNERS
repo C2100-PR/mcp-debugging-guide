@@ -1,0 +1,12 @@
+# These owners will be the default owners for everything in the repo
+* @C2100-PR/security-team
+
+# Security-related files
+.github/workflows/security-scan.yml @C2100-PR/security-team
+SECURITY.md @C2100-PR/security-team
+
+# Configuration files
+*.json @C2100-PR/config-reviewers
+
+# CI/CD configurations
+.github/workflows/ @C2100-PR/devops-team
